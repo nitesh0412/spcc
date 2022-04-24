@@ -25,8 +25,3 @@ int yywrap()
 return 1;
 
 }
-
-/* yacc -d exp8.y          */
-/* lex exp8.l              */
-/* gcc lex.yy.c y.tab.c -w */
-/* ./a.out                 */
